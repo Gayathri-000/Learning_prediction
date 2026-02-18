@@ -79,23 +79,6 @@ Clear explanation of prediction reasoning
 
 This enables teachers to understand why a student is predicted to pass or fail.
 
-🏗️ Project Architecture
-Project Root/
-│
-├── frontend/        # React-based UI
-│
-├── backend/         # API and LMS logic
-│
-├── ml_training/     # XGBoost model training & SHAP analysis
-│   ├── train_model.py
-│   ├── xgboost_model.pkl
-│   ├── model_metrics.json
-│   ├── shap plots
-│   └── evaluation graphs
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
