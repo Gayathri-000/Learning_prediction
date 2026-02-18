@@ -1,0 +1,8 @@
+# Requirements for Explainable LMS Frontend
+
+# Node.js dependencies are managed via package.json
+# Install them using `npm install`.
+
+# Example of global tools or additional requirements:
+Node.js >= 16.0.0
+npm >= 8.0.0
