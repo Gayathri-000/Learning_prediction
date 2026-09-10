@@ -1,127 +1,57 @@
-🎓 Explainable LMS – Intelligent Student Performance Prediction System
-📌 Overview
 
-This project is a full-stack Learning Management System (LMS) integrated with an Explainable Machine Learning model to predict student academic performance.
+---
 
-The system allows:
+## 🖥️ System Screenshots
 
-🎥 Students to watch course videos
+| Sign Up | Student Dashboard | Prediction Output |
+|---------|------------------|-------------------|
+| ![signup]() | ![dashboard]() | ![prediction]() |
 
-📚 Access learning resources
+---
 
-📝 Attend online tests
+## 🛠️ Tech Stack
 
-📊 Receive performance-based predictions
+- **Backend** — Python, Flask
+- **ML Libraries** — XGBoost, LightGBM, Scikit-learn, SHAP, imbalanced-learn
+- **Frontend** — React.js
+- **Database** — Firebase
+- **Dataset** — OULAD (Open University Learning Analytics Dataset)
 
-👩‍🏫 Teachers to view predictions and recommendations
+---
 
-The prediction model is built using XGBoost and achieves an accuracy of 89%.
+## ⚙️ Installation
 
-🚀 Core Features
-👨‍🎓 Student Features
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/edupredict.git
 
-User authentication (Login / Signup)
+# Navigate to the project directory
+cd edupredict
 
-Course enrollment
-
-Watch course videos
-
-Access course resources
-
-Attend online tests
-
-View test results
-
-Receive predicted performance (Pass / Fail)
-
-👩‍🏫 Teacher Features
-
-Create and manage courses
-
-Upload videos & resources
-
-Create and manage tests
-
-View student submissions
-
-Access student performance predictions
-
-View ML-based recommendations
-
-Analyze student risk levels
-
-🧠 Machine Learning Module
-
-The system includes a trained XGBoost Classifier that:
-
-Predicts student academic outcome (Pass / Fail)
-
-Uses engagement & performance features
-
-Provides interpretable insights using SHAP
-
-📊 Model Performance
-Metric Value
-Accuracy 89%
-Model XGBoost Classifier
-Type Binary Classification
-🔍 Explainability with SHAP
-
-To ensure transparency, the system integrates SHAP (SHapley Additive exPlanations):
-
-Global feature importance visualization
-
-SHAP summary plots
-
-Individual student-level waterfall plots
-
-Clear explanation of prediction reasoning
-
-This enables teachers to understand why a student is predicted to pass or fail.
-
-⚙️ Installation & Setup
-
-Backend Setup
-python -m venv venv
-venv\Scripts\activate
+# Install dependencies
 pip install -r requirements.txt
 
-Run backend:
-
+# Run the application
 python app.py
+```
 
-Frontend Setup
-cd frontend
-npm install
-npm run dev
+---
 
-🎯 System Objectives
+## 👥 Team
 
-Improve academic performance prediction
+| Name | Role |
+|------|------|
+| Gayathri G | |
+| Arya K J | |
+| Ashvin Thadevoos | |
+| Shehin T Shaji | |
 
-Provide transparent AI-based insights
+**Project Guide:** Ms. Raheena Salihin
 
-Support teachers in identifying at-risk students
+**Institution:** Department of Computer Science and Engineering, Government Model Engineering College
 
-Enhance digital learning environments
+---
 
-Integrate ML with real LMS workflows
+## 📄 License
 
-🔮 Future Enhancements
-
-Cloud deployment
-
-Personalized adaptive learning paths
-
-Analytics dashboard for administrators
-
-👩‍💻 Contributors
-
-Gayathri G
-Arya KJ
-Shehin T Shaji
-Asvin Thadevoos
-
-📄 License
-
-Developed for academic and research purposes.
+This project is for academic purposes only.
