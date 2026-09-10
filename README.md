@@ -134,12 +134,12 @@ edupredict/
 
 ## 👥 Team
 
-| Name | Role |
+| Name | 
 |------|------|
-| Gayathri G | ML Model Development |
-| Arya K J | Backend Development |
-| Ashvin Thadevoos | Frontend Development |
-| Shehin T Shaji | Data Processing & SHAP |
+| Gayathri G | 
+| Arya K J | 
+| Ashvin Thadevoos | 
+| Shehin T Shaji |
 
 **Project Guide:** Ms. Raheena Salihin  
 **Institution:** Government Model Engineering College  
